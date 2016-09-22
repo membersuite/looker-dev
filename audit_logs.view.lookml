@@ -8,6 +8,7 @@
     sql: ${TABLE}.id
 
   - dimension: actor_id
+    label: "Actor Identifier"
     type: string
     sql: ${TABLE}.actor_id
 

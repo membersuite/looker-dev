@@ -27,15 +27,18 @@
   - dimension: affected_record_id
     type: string
     sql: ${TABLE}.affected_record_id
+    group_label: "Affected Record Information"
 
   - dimension: affected_record_name
     type: string
     sql: ${TABLE}.affected_record_name
-
+    group_label: "Affected Record Information"
+    
   - dimension: affected_record_type
     type: string
     sql: ${TABLE}.affected_record_type
-
+    group_label: "Affected Record Information"
+    
   - dimension: city
     type: string
     sql: ${TABLE}.city
@@ -46,7 +49,8 @@
 
   - dimension_group: date
     type: time
-    timeframes: [time, date, week, month]
+    label: "Event Date"
+    timeframes: [time, date, week, month, year]
     sql: ${TABLE}.date
 
   - dimension: description

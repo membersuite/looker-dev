@@ -5,8 +5,6 @@
 
 - explore: audit_logs
 
-- explore: audit_logs2
-
 - explore: audit_logs_old
 
 - explore: email_activities
